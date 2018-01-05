@@ -17,3 +17,9 @@ body {
 .pagination {
   margin-bottom: 15px;
 }
+
+.screenshot {
+  width: 700px;
+  height: auto;
+  max-height: 300px;
+}
