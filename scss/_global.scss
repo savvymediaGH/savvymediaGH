@@ -1,0 +1,33 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+hr {
+  margin: 2em 0;
+}
+
+.pagination {
+  margin-bottom: 15px;
+}
+
+.screenshot {
+  width: 700px;
+  height: auto;
+  max-height: 300px;
+  box-shadow: 0px 0px 5px #888;
+}
+
+nav.navbar-demopage {
+  height: 72px;
+  background: linear-gradient(#92847b, #b99143);
+}
+
+.nav-logo {
+  height: 54px;
+}
