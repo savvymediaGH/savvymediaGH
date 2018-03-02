@@ -14,6 +14,10 @@ body {
   }
 }
 
+hr {
+  margin: 2em 0;
+}
+
 .pagination {
   margin-bottom: 15px;
 }
@@ -22,6 +26,7 @@ body {
   width: 700px;
   height: auto;
   max-height: 300px;
+  box-shadow: 0px 0px 5px #888;
 }
 
 nav.navbar-demopage {
@@ -30,7 +35,7 @@ nav.navbar-demopage {
 }
 
 .nav-logo {
-    height: 54px;
+  height: 54px;
 }
 
 .btn-main {
@@ -41,7 +46,7 @@ nav.navbar-demopage {
   border: 1px solid black;
   text-decoration: none;
   color: black;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -86,14 +91,14 @@ nav.navbar-demopage {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-    color: white;
+  color: white;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-    background-image: url("../img/arrow-right-white.png");
-    background-position: 85% 52%;
-    background-repeat: no-repeat;
-    background-size: 0.6em 1em;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  background-image: url("../img/arrow-right-white.png");
+  background-position: 85% 52%;
+  background-repeat: no-repeat;
+  background-size: 0.6em 1em;
 }
